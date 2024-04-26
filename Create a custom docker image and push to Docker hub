@@ -1,0 +1,35 @@
+#Create a custom docker image for nginx and deploy it using docker compose
+sselva@psselvaVM:~$ mkdir pullimage
+psselva@psselvaVM:~$ cd pullimage/
+psselva@psselvaVM:~/pullimage$ docker pull nginx:latest
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.45/images/create?fromImage=nginx&tag=latest": dial unix /var/run/docker.sock: connect: permission denied
+psselva@psselvaVM:~/pullimage$ sudo docker pull nginx:latest
+latest: Pulling from library/nginx
+b0a0cf830b12: Pull complete 
+8ddb1e6cdf34: Pull complete 
+5252b206aac2: Pull complete 
+988b92d96970: Pull complete 
+7102627a7a6e: Pull complete 
+93295add984d: Pull complete 
+ebde0aa1d1aa: Pull complete 
+Digest: sha256:ed6d2c43c8fbcd3eaa44c9dab6d94cb346234476230dc1681227aa72d07181ee
+Status: Downloaded newer image for nginx:latest
+docker.io/library/nginx:latest
+======
+where the volume bind mount should be at /var/opt/nginx location. 
+Push the created custom docker image to your docker-hub.
+
+index.html
+
+docker tag 1449dbf85e26 example.com:18444/hello-world:mytag
+
+sselva@psselvaVM:~/pullimage$ sudo docker push devopskalsym/nginx_as7:latest
+The push refers to repository [docker.io/devopskalsym/nginx_as7]
+33604321b5d7: Preparing 
+3e214109dd04: Preparing 
+5080acfc4b83: Preparing 
+0fd716f781a0: Preparing 
+011b303988d2: Preparing 
+denied: requested access to the resource is denied
+
+
