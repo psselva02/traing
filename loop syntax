@@ -1,0 +1,1 @@
+for <variable name> in <a list of items>;do <some command> $<variable name>;done;
