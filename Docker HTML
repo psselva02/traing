@@ -1,0 +1,5 @@
+$docker pull nginx
+$docker images
+$doocker run -p 80:80 nginx:latest
+$docker pc
+Browser--http:\\Localhost:80 
