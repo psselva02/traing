@@ -1,0 +1,1 @@
+response=$(curl --head --write-out %{http_code} --silent --output /dev/null servername)
