@@ -1,0 +1,19 @@
+
+$Sudo docker pull jenkins/jenkins:lts
+$Vi docker-compose.yml
+  version: '3'
+  services:
+  jenkins:
+   image: jenkins/jenkins:lts
+   container_name: jenkins
+  Ports:
+    -'80:8080'
+
+$docker-compose up -d
+$ sudo docker ps
+CONTAINER ID        
+a3b3fd261b94        
+
+ $ sudo docker logs a3b3fd261b94
+get passport and pas to Jenkin -- https://localhost  -d018f049e05f48db85abcc2cde2a07e3—administrator password 
+and create user name and Build project..
