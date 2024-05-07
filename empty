@@ -1,0 +1,5 @@
+$ mkdir empty
+$ touch empty/.gitignore
+$ git add empty
+$ echo '*' > empty/.gitignore
+$ git commit -m 'Empty directory' empty
