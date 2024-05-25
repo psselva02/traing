@@ -1,0 +1,42 @@
+Public IPv4 address
+
+3.24.124.124 | open address 
+Private IPv4 addresses
+
+172.31.8.100
+IPv6 address
+–
+Instance state
+Running
+Public IPv4 DNS
+
+ec2-3-24-124-124.ap-southeast-2.compute.amazonaws.com
+|
+open address 
+Hostname type
+IP name: ip-172-31-8-100.ap-southeast-2.compute.internal
+Private IP DNS name (IPv4 only)
+
+ip-172-31-8-100.ap-southeast-2.compute.internal
+Answer private resource DNS name
+IPv4 (A)
+Instance type
+t2.micro
+Elastic IP addresses
+–
+Auto-assigned IP address
+
+3.24.124.124 [Public IP]
+VPC ID
+
+vpc-0722f950056136b82 
+AWS Compute Optimizer finding
+Opt-in to AWS Compute Optimizer for recommendations.
+|
+Learn more 
+IAM Role
+–
+Subnet ID
+
+subnet-081e1a69ce4df316d 
+Auto Scaling Group name
