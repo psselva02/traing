@@ -1,0 +1,56 @@
+EC2
+Instances
+i-0585d846f96dd3610
+Instance summary for i-0585d846f96dd3610 (Linux_Instance) Info
+
+Connect
+Instance state
+Actions
+Updated 1 minute ago
+
+Instance ID
+
+i-0585d846f96dd3610 (Linux_Instance)
+Public IPv4 address
+
+54.252.169.142 | open address 
+Private IPv4 addresses
+
+172.31.7.192
+IPv6 address
+–
+Instance state
+Running
+Public IPv4 DNS
+
+ec2-54-252-169-142.ap-southeast-2.compute.amazonaws.com
+|
+open address 
+Hostname type
+IP name: ip-172-31-7-192.ap-southeast-2.compute.internal
+Private IP DNS name (IPv4 only)
+
+ip-172-31-7-192.ap-southeast-2.compute.internal
+Answer private resource DNS name
+IPv4 (A)
+Instance type
+t2.micro
+Elastic IP addresses
+–
+Auto-assigned IP address
+
+54.252.169.142 [Public IP]
+VPC ID
+
+vpc-0722f950056136b82 
+AWS Compute Optimizer finding
+Opt-in to AWS Compute Optimizer for recommendations.
+|
+Learn more 
+IAM Role
+–
+Subnet ID
+
+subnet-081e1a69ce4df316d 
+Auto Scaling Group name
+–
